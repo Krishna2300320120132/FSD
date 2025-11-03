@@ -14,6 +14,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   const handleSelectTopic = (topic) => {
+    
     setSelectedTopic(topic);
     setCount(0);
   };
